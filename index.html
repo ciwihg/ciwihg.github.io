@@ -1,6 +1,17 @@
+<!DOCTYPE html>
 <html>
+<head>
+</head>
   <body>
-    <h1>CiWi Personal page</h1>
-      
+    <h1 id="c">CiWi Personal page</h1>
+
   </body>
+  <script>
+    var flag=false;
+     var name=document.querySelector("#c");
+     setInterval(function(){
+       flag=!flag;
+       flag?(name.style.color="black"):(name.style.color="yellow")
+     },1500);
+  </script>
 </html>
