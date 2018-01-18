@@ -8,8 +8,9 @@
   </body>
   <script>
     var flag=false;
-     var name=document.querySelector("#c");
+     var name=null;
      setInterval(function(){
+       name||(name=document.querySelector("#c"));
        flag=!flag;
        console.log(name);
        flag?(name.style.color="black"):(name.style.color="yellow")
