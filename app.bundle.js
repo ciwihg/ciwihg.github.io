@@ -19170,7 +19170,7 @@ display:none;
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_1__components_showtextanimation_js__["a" /* default */],
           { gettarget: this.getTargetR, addstyle: true },
-          `a{
+          `.project-ul span,.github-link span{
       color:#ff4081;
       text-decoration: underline;
 }`
@@ -19344,7 +19344,7 @@ display:none;
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_1__components_showtextanimation_js__["a" /* default */],
                 { gettarget: this.getTarget, finish: this.finish },
-                'React\u7B80\u5386'
+                '\u52A8\u753B\u7B80\u5386'
               )
             )
           ),
